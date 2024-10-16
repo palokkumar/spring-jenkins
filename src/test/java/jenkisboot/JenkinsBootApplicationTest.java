@@ -16,6 +16,8 @@ public class JenkinsBootApplicationTest {
     @Test
     public void contextLoads(){
         logger.info("Testcase executing...");
+        logger.info("Testcase executing 2nd log statement...");
+
         assertEquals(true,true);
     }
 
